@@ -33,9 +33,7 @@ app.get("/", function(req, res) {
   }).catch((err) => {
     console.log(err)
   });
-
 });
-
 app.get("/about", function(req, res){
   res.render("about", {aboutContent: aboutContent});
 });
